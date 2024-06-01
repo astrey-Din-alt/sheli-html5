@@ -1,6 +1,6 @@
 import requests
 
-bot_token = 'YOUR_BOT_TOKEN'
+bot_token = 'TOKEN'
 web_app_url = 'https://astrey-din-alt.github.io/sheli-html5'
 
 response = requests.post(
