@@ -1,0 +1,12 @@
+{
+  "name": "sheli app",
+  "short_name": "sheli app",
+  "id": "com.example.gamename",
+  "description": "",
+  "orientation": "portrait",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "black",
+  "categories": ["games", "entertainment"],
+  "icons": []
+}

@@ -1,0 +1,9 @@
+version: '3'
+services:
+  web:
+    image: nginx:alpine
+    ports:
+      - "80:80"
+    volumes:
+      - ./sheli-html5:/usr/share/nginx/html
+      - ./default.conf:/etc/nginx/conf.d/default.conf
