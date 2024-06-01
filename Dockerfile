@@ -5,7 +5,7 @@ FROM nginx:alpine
 COPY default.conf /etc/nginx/conf.d/default.conf
 
 # Copy the HTML5 game files to the container
-COPY sheli-html5 /usr/share/nginx/html
+COPY docs /usr/share/nginx/html
 
 # Expose port 80
 EXPOSE 80
